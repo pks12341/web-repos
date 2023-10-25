@@ -18,7 +18,7 @@ console.log('reduce : ', sum1);
 
 
 function sum(a = 0, b = 0, ...args) { // parameters ///...은 펼침연산자이다.args이름으로 들어오는값을 처리 몇개인지는 모름..
-	console.log(args);
+	console.log('12313'+args);123
 	let result = 0;
 	result = a + b;
 	args.forEach(num => result += num); //화살표함수
