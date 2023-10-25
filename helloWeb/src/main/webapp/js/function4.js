@@ -32,6 +32,11 @@ document.getElementById('saveBtn').onclick = function(e) {  //id값으로 ele를
 	let name = document.getElementById('name').value;
 	let age = document.getElementById('age').value;
 	let height = document.getElementById('height').value;
+	
+	if(!name || !age || !height){
+		alert('값을 입력하세요');
+		return; //함수 종료
+	}
 
 	const mem = new Member(name, age, height);
 	let str = makeTr(mem);  //<tr>.....</tr>->tr태그를 만들어주는놈

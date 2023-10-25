@@ -23,3 +23,4 @@ function makeTr(member) {
 	html += '<td><button onclick ="this.parentElement.parentElement.remove()">삭제</button></td>';
 	html += '</tr>';
 	return html;
+	}
