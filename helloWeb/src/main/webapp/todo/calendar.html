@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+
+	<div id='show'></div>'
+	<table border="1">
+		<thead>
+			<tr>
+				<th>일</th>
+				<th>월</th>
+				<th>화</th>
+				<th>수</th>
+				<th>목</th>
+				<th>금</th>
+				<th>토</th>
+			</tr>
+		<tbody> //tbody가 데이터영역
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+
+
+			</tr>
+		</tbody>
+		</thead>
+	</table>
+	<script>
+		//calendar => table 
+		//makeHead();
+		function makeHead() {
+
+			let str = '';
+			str += "<table border ='1'>";
+			let day = [ '일','월', '화', '수', '목', '금', '토']
+			tr += '<tr>';
+			for (let day in calendar) {
+				str += '<td>' + makeBody[day] + '</td>';
+			}
+			str += '</tr>';
+			return tr;
+		}
+
+		//makeBody();
+		function makeBody() {
+				let str = '';
+				str += '<tbody>'
+
+				let dayyy=i
+				for(let i = 1; i<31; i++){
+
+				}
+			}
+		
+		//makeCalendar();
+
+
+
+		makeCalendar();
+	</script>
+</body>
+
+</html>
